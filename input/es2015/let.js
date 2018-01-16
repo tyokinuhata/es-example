@@ -9,3 +9,17 @@ console.log(foo)    // FOO
 // 再宣言
 var foo = 'foo'
 console.log(foo)    // foo
+
+
+
+// letによる変数宣言と初期化
+let bar = 'bar'
+console.log(bar)    // bar
+
+// 再代入
+bar = 'BAR'
+console.log(bar)    // BAR
+
+// 再宣言
+// let bar = 'bar'
+// console.log(bar) // error
