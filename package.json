@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/tyokinuhata/es-example/issues"
   },
-  "homepage": "https://github.com/tyokinuhata/es-example#readme"
+  "homepage": "https://github.com/tyokinuhata/es-example#readme",
+  "dependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.10.0"
+  }
 }
