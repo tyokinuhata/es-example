@@ -17,6 +17,6 @@ ECMAScriptの新機能まとめ
 
 |ディレクトリ名|説明|
 |:-:|:--|
-|input/esXXXX/...|ECMAScriptXXXXによる新機能|
+|input/esXXXX/...|ECMAScriptXXXXによる新機能のコード|
 |output/esXXXX/...|ECMAScriptXXXXで記述されたコードをBabelでトランスパイルしたもの|
 |com.sh|トランスパイル用のシェル|
