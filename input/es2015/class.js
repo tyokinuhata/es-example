@@ -23,3 +23,19 @@ class Bar {
         return this.name
     }
 }
+
+// 継承
+class Baz extends Bar {
+    // オーバーライド
+    sayHello() {
+        console.log("Hi, I'm " + this.getName())
+    }
+}
+
+const foo = new Foo('foo')
+const bar = new Bar('bar')
+const baz = new Baz('baz')
+
+foo.sayHello()
+bar.sayHello()
+baz.sayHello()
