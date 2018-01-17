@@ -1,3 +1,3 @@
 #!/bin/sh
 
-osascript -l JavaScript ./input/$1/$2.js
+node ./input/$1/$2.js
