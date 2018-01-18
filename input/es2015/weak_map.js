@@ -3,9 +3,13 @@
 // そのため, キーが列挙可能ではない(すなわち, キーのリストを取得するメソッドがない)
 const weakmap = new WeakMap()
 
-weakmap.set({}, 'foo')
-weakmap.set({}, 'bar')
-weakmap.set({}, 'baz')
+const foo = {}
+const bar = {}
+const baz = {}
+
+weakmap.set(foo, 'foo')
+weakmap.set(bar, 'bar')
+weakmap.set(baz, 'baz')
 
 console.log(weakmap)
-console.log(weakmap.get({}))
+console.log(weakmap.get(foo))
