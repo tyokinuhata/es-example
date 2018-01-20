@@ -1,4 +1,5 @@
 // Promise
+// コールバック地獄を解決する, 非同期処理をスマートに記述できる機能
 const timer = number => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
