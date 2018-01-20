@@ -1,3 +1,4 @@
+// Promise
 const timer = number => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {

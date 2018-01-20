@@ -1,3 +1,4 @@
+// コールバック地獄
 const timer = (number, callback) => {
     setTimeout(() => {
         callback(number * 2)
