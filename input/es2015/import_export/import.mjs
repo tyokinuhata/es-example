@@ -1,3 +1,4 @@
+// import
 import Export, { foo, bar } from './export'
 
 console.log(Export())

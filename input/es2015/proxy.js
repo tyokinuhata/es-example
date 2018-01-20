@@ -1,3 +1,5 @@
+// Proxy
+// メソッドの振る舞いを変更できる機能
 const target = {}
 const handler = {
     set: (target, name, value) => {
