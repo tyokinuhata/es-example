@@ -14,5 +14,5 @@ timer(100)
     .then(timer)
     .then(timer)
     .then(value => {
-        console.log(value)
+        console.log(value)  // 3200
     })

@@ -25,5 +25,5 @@ obj[Symbol.iterator] = () => {
 }
 
 for (const value of obj) {
-    console.log(value)
+    console.log(value)  // 1 2 3 4 5 6 7 8 9 10
 }

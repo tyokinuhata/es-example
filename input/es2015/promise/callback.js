@@ -10,7 +10,7 @@ timer(100, number => {
         timer(number, number => {
             timer(number, number => {
                 timer(number, number => {
-                    console.log(number)
+                    console.log(number) // 3200
                 })
             })
         })
