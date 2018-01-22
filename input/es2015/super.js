@@ -4,7 +4,6 @@ class Foo {
     }
 }
 
-// 継承
 class Bar extends Foo {
     constructor() {
         super()
