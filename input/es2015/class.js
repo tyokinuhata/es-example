@@ -17,7 +17,9 @@ class Bar {
     constructor(name) {
         this.name = name
     }
-    // メソッド
+
+    // インスタンスメソッド
+    // インスタンス名.メソッド名 で呼び出せるメソッド
     sayHello() {
         console.log("Hello, I'm " + this.getName())
     }
