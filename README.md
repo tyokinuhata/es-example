@@ -28,6 +28,8 @@ ECMAScriptの新機能まとめ
 |const宣言|const.js|
 |関数のデフォルト引数|default_parameter.js|
 |分割代入|destructuring_assignment.js|
+|継承|extend.js|
+|分割代入|destructuring_assignment.js|
 |for ... ofループ|for_of.js|
 |ジェネレータ|generator.js|
 |ゲッター・セッター|getter_setter.js|
