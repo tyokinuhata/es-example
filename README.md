@@ -17,7 +17,7 @@ ECMAScriptの新機能まとめ
 
 # ES2015
 
-|機能|ファイル名|
+|機能|ファイル/ディレクトリ名|
 |:--|:--|
 |import/export|import_export|
 |Promise|promise|
