@@ -11,11 +11,18 @@ ECMAScriptの新機能まとめ
 ├── output
 │   └── esXXXX
 │       └── ...
-└── com.sh
+├── com.sh
+├── run.sh
+└── module_run.sh
 
 ```
 
-input以下にはESXXXXで記述されたソースコード, output以下にはBabelでコンパイルされたソースコードが入っている.
+|ファイル/ディレクトリ|説明|
+|input|ESXXXXで記述されたソースコード|
+|output|Babelでトランスパイルされたソースコード|
+|com.sh|トランスパイル用シェル|
+|run.sh|実行用シェル|
+|module_run.sh|実行用シェル(import/export用)|
 
 # ES2015
 
