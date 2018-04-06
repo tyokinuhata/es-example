@@ -20,7 +20,7 @@ ECMAScriptの新機能まとめ
 |ファイル/ディレクトリ|説明|
 |:--|:--|
 |input|ESXXXXで記述されたソースコード|
-|output|Babelでトランスパイルされたソースコード|
+|output|Babelでトランスパイルされたソースコード(ただしES5のコードはない)|
 |com.sh|トランスパイル用シェル|
 |run.sh|実行用シェル|
 |module_run.sh|実行用シェル(import/export用)|
