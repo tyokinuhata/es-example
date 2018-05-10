@@ -25,6 +25,14 @@ ECMAScriptの新機能まとめ
 |run.sh|実行用シェル|
 |module_run.sh|実行用シェル(import/export用)|
 
+# ES5
+|機能|ファイル/ディレクトリ名|
+|:--|:--|
+|ゲッター・セッター|getter_setter.js|
+|予約語のプロパティ名使用|reserved_word_property.js|
+|strictモード|strict.js|
+|末尾カンマ無視|trailing_commas.js|
+
 # ES2015
 
 |機能|ファイル/ディレクトリ名|
